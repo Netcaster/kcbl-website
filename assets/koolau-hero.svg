@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8eef7"/><stop offset="48%" stop-color="#b9dcef"/><stop offset="100%" stop-color="#85b9d4"/>
+    </linearGradient>
+    <linearGradient id="mountainBack" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6f93a8"/><stop offset="100%" stop-color="#47697c"/>
+    </linearGradient>
+    <linearGradient id="mountainFront" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#486a57"/><stop offset="100%" stop-color="#2e4b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0 500 L110 430 L200 460 L290 390 L385 435 L505 340 L635 405 L735 315 L820 360 L910 290 L1000 350 L1100 280 L1220 360 L1320 300 L1450 390 L1600 330 L1600 900 L0 900 Z" fill="url(#mountainBack)" opacity="0.95"/>
+  <path d="M0 600 L85 520 L180 565 L305 455 L430 520 L525 425 L650 500 L760 395 L860 470 L965 390 L1095 500 L1210 420 L1325 515 L1455 455 L1600 560 L1600 900 L0 900 Z" fill="url(#mountainFront)"/>
+  <ellipse cx="420" cy="230" rx="280" ry="60" fill="white" opacity="0.22"/>
+  <ellipse cx="980" cy="160" rx="240" ry="50" fill="white" opacity="0.18"/>
+  <path d="M0 610 C180 575, 340 640, 530 610 C760 575, 960 650, 1160 605 C1340 565, 1480 650, 1600 618 L1600 710 L0 710 Z" fill="white" opacity="0.15"/>
+  <path d="M0 680 C200 635, 350 720, 570 675 C760 640, 960 725, 1190 680 C1360 645, 1500 710, 1600 690 L1600 900 L0 900 Z" fill="#d9c1a1" opacity="0.35"/>
+</svg>
